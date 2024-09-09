@@ -50,7 +50,7 @@
     <!-- Question 4: -->
     <h1><p>Question 4:</p></h1>
     <div class="information-container">
-        <table class="information-table">
+        <table class="information-table" id="information-table">
             <tr>
                 <th>ID</th>
                 <th>Name</th>
@@ -58,16 +58,16 @@
                 <th>Gender</th>
             </tr>
         </table>
-        <form class="information-form">
+        <form class="information-form" id="information-form">
             <label for="Name">Full Name:</label>
             <input type="text" name="Name">
             <label for="Age">Age: </label>
             <input type="number" name="Age">
             <div class="gender-buttons">
                 <label for="Male">Male</label>
-                <input type="radio" name="Male">
+                <input type="radio" id="Male" name="Gender" value="Male">
                 <label for="Female">Female</label>
-                <input type="radio" name="Female">
+                <input type="radio" id="Female" name="Gender" value="Female">
             </div>
             <input type="submit" value="Submit">
         </form>
