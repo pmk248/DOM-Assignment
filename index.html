@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="stlyes.css">
+</head>
+<body>
+    <!-- Question 1: -->
+    <h1><p>Question 1:</p></h1>
+    <h1 id="question1"> MOUSE OFF</h1>
+
+    <!-- Question 2: -->
+     <h1><p>Question 2:</p></h1>
+    <div class="menu-container" id="question2">
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+        <div class="menu" id="menu">
+            <a > BLUE </a>
+            <a > GREEN</a>
+            <a > RED  </a>
+        </div>
+        <form id="colorForm">
+            <label for="colorAdd">Add Color:</label>
+            <input type="text" id="colorAdd" name="colorAdd"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Question 3: -->
+    <h1><p>Question 3:</p></h1>
+    <div class="text-container question3" id="text-container">
+        <h6 id="question3"> Boing! </h6>
+    </div>
+    <div class="button-container" id="button-container">
+        <button onclick="setPosition('ne')">⇖</button>
+        <button onclick="setPosition('n')">⇑</button>
+        <button onclick="setPosition('nw')">⇗</button>
+        <button onclick="setPosition('e')">⇐</button>
+        <button onclick="setPosition('c')">◯</button>
+        <button onclick="setPosition('w')">⇒</button>
+        <button onclick="setPosition('se')">⇙</button>
+        <button onclick="setPosition('s')">⇓</button>
+        <button onclick="setPosition('sw')">⇘</button>
+    </div>
+
+    <!-- Question 4: -->
+    <h1><p>Question 4:</p></h1>
+    <div class="information-container">
+        <table class="information-table">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </table>
+        <form class="information-form">
+            <label for="Name">Full Name:</label>
+            <input type="text" name="Name">
+            <label for="Age">Age: </label>
+            <input type="number" name="Age">
+            <div class="gender-buttons">
+                <label for="Male">Male</label>
+                <input type="radio" name="Male">
+                <label for="Female">Female</label>
+                <input type="radio" name="Female">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
+
