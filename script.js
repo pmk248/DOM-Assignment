@@ -56,7 +56,6 @@ COLOR_FORM.addEventListener('submit', function(event) {
     anchor.addEventListener('click', changeBoxColor);
 });
 
-
 //// Question 3:
 function setPosition(position) {
     let textContainer = document.querySelector('.text-container');
@@ -97,3 +96,7 @@ function addToTable(formData){
         INFO_TABLE.appendChild(NEW_ROW);
     }
 };
+
+//// Question 5:
+
+//// Question 6:
